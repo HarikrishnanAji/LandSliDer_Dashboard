@@ -2,12 +2,12 @@ import React from "react";
 import Chart from "react-apexcharts";
 
 
-const CustomerReview = () => {
+const PredictionResults = () => {
   const data = {
     series: [
       {
-        name: "Review",
-        data: [10, 50, 30, 90, 40, 120, 100],
+        name: "Prediction",
+        data: [0, 50, 30, 90, 40, 120, 100,10,30,100,10,20,30,20,100,110,120,140,20,30,0],
       },
     ],
     options: {
@@ -17,7 +17,7 @@ const CustomerReview = () => {
       },
 
       fill: {
-        colors: ["#fff"],
+        colors: ["#c788f7"],
         type: "gradient",
       },
       dataLabels: {
@@ -25,7 +25,7 @@ const CustomerReview = () => {
       },
       stroke: {
         curve: "smooth",
-        colors: ["#ff929f"],
+        colors: ["#c788f7"],
       },
       tooltip: {
         x: {
@@ -45,19 +45,35 @@ const CustomerReview = () => {
           "2018-09-19T04:30:00.000Z",
           "2018-09-19T05:30:00.000Z",
           "2018-09-19T06:30:00.000Z",
+          "2018-09-19T07:30:00.000Z",
+          "2018-09-19T08:30:00.000Z",
+          "2018-09-19T09:30:00.000Z",
+          "2018-09-19T10:30:00.000Z",
+          "2018-09-19T11:30:00.000Z",
+          "2018-09-19T12:30:00.000Z",
+          "2018-09-19T13:30:00.000Z",
+          "2018-09-19T14:30:00.000Z",
+          "2018-09-19T15:30:00.000Z",
+          "2018-09-19T16:30:00.000Z",
+          "2018-09-19T17:30:00.000Z",
+          "2018-09-19T18:30:00.000Z",
+          "2018-09-19T19:30:00.000Z",
+          "2018-09-19T20:30:00.000Z",
+          
+          
         ],
       },
       yaxis: {
-        show: false
+        show: true
       },
       toolbar:{
-        show: false
+        show: true
       }
     },
   };
-  return <div className="CustomerReview">
+  return <div className="PredictionResults">
         <Chart options={data.options} series={data.series} type="area" />
   </div>;
 };
 
-export default CustomerReview;
+export default PredictionResults;

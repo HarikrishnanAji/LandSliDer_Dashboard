@@ -1,6 +1,6 @@
 import React from "react";
 import Cards from "../Cards/Cards";
-import PredictionResults from "../PredictionResults/CustomerReview";
+import PredictionResults from "../PredictionResults/PredictionResults";
 
 import "./MainDash.css";
 const MainDash = () => {

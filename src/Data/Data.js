@@ -11,8 +11,6 @@ import {
 
 // Analytics Cards imports
 import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
-import { keyboard } from "@testing-library/user-event/dist/keyboard";
-
 
 // Sidebar Data
 export const SidebarData = [
@@ -44,10 +42,10 @@ export const cardsData = [
   {
     title: "Vibration",
     color: {
-      backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",
+      backGround: "linear-gradient(180deg, #822eff 0%, #b13dff 100%)",
       boxShadow: "0px 10px 20px 0px #e0c6f5",
     },
-    barValue: 70,
+    barValue: 30,
     value: "",
     png: UilUsdSquare,
     series: [
@@ -60,7 +58,7 @@ export const cardsData = [
   {
     title: "Moisture",
     color: {
-      backGround: "linear-gradient(180deg, #FF919D 0%, #FC929D 100%)",
+      backGround: "linear-gradient(180deg, #822eff 0%, #b13dff 100%)",
       boxShadow: "0px 10px 20px 0px #FDC0C7",
     },
     barValue: 20,
@@ -77,7 +75,7 @@ export const cardsData = [
     title: "Rainfall",
     color: {
       backGround:
-        "linear-gradient(rgb(248, 212, 154) -146.42%, rgb(255 202 113) -46.42%)",
+        "linear-gradient(180deg, #822eff 0%, #b13dff 100%",
       boxShadow: "0px 10px 20px 0px #F9D59B",
     },
     barValue: 60,

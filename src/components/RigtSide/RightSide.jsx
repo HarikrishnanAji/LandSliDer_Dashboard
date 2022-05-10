@@ -5,13 +5,10 @@ import "./RightSide.css";
 const RightSide = () => {
   return (
     <div className="RightSide">
-      <div>
-        
-        <Table />
+      <div> 
+          <Table />
       </div>
-      <div>
-        
-      </div>
+      
     </div>
   );
 };
