@@ -26,3 +26,16 @@
         align-items: center;
     }
 }
+.start{
+    background-color: rgba(13, 107, 157, 0.714);
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    border-color: transparent;
+    font-size: x-large;
+    
+}
+.start:hover{
+    background-color: rgba(13, 107, 157, 0.422);
+
+}

@@ -5,12 +5,14 @@ import "./RightSide.css";
 const RightSide = () => {
   return (
     <div className="RightSide">
-      <div> 
-          <Table />
-      </div>
       
+          <Table />
+          <div className="Start-button"><button className="start">Start</button></div>
     </div>
   );
 };
 
 export default RightSide;
+
+
+

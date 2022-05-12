@@ -17,7 +17,7 @@ const PredictionResults = () => {
       },
 
       fill: {
-        colors: ["#c788f7"],
+        colors: ["#ba6ffc"],
         type: "gradient",
       },
       dataLabels: {
@@ -25,7 +25,7 @@ const PredictionResults = () => {
       },
       stroke: {
         curve: "smooth",
-        colors: ["#c788f7"],
+        colors: ["#ba6ffc"],
       },
       tooltip: {
         x: {

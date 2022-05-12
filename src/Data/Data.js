@@ -9,6 +9,8 @@ import {
   UilSetting,
 } from "@iconscout/react-unicons";
 
+
+
 // Analytics Cards imports
 import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
 
@@ -23,14 +25,7 @@ export const SidebarData = [
     icon: UilChart,
     heading: 'Analytics'
   },
-  {
-    icon: UilClipboardAlt,
-    heading: "List",
-  },
-  {
-    icon: UilUsersAlt,
-    heading: "User",
-  },
+    
   {
     icon: UilSetting,
     heading: 'Setting'
