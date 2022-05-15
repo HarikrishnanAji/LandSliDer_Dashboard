@@ -1,10 +1,10 @@
 .MainDash{
     /* padding-top: 1rem; */
+    margin-top: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
-   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media screen and (max-width: 1200px) {
