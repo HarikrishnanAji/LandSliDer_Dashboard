@@ -1,6 +1,6 @@
 .status{
-  width: 250px;
-  height: 150px;
+  width: 225px;
+  height: 125px;
   background: rgba(0, 255, 174, 0.737);
   border-radius: 1rem;
   text-align: center;
@@ -10,6 +10,7 @@
   cursor: pointer;
   font-size:x-large;
   box-shadow: darkgreen;
+  margin-top: 5rem;
 
 
   
@@ -28,6 +29,5 @@
 
 }
 .main-status{
-  padding-bottom: 185px;
   position: relative;
 }
