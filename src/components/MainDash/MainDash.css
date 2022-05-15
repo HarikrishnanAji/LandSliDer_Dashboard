@@ -21,9 +21,12 @@
     }
 }
 .pResults{
-    width: 75%;
+    width: 70%;
     height: 100%;
     margin-left: 0px;
     align-items: center;
     
+}
+.predict{
+    padding-top: 10px;
 }
