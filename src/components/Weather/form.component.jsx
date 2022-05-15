@@ -26,7 +26,7 @@ const Form = props => {
             />
           </div>
           <div className="col-md-1 mt-md-0 mt-1  text-md-left offset-1 ">
-            <button className="btn btn-warning">Get Weather</button>
+            <button className="btn btn-primary" >Get Weather</button>
           </div>
         </div>
       </form>
