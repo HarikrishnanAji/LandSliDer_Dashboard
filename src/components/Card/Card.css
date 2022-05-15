@@ -1,7 +1,7 @@
 .CompactCard {
   display: flex;
   flex: 1;
-  height: 8rem !important;
+  height: 9rem !important;
   border-radius: 0.7rem;
   color: rgb(255, 224, 224);
   padding: 1rem;
@@ -27,7 +27,7 @@
 .CircularProgressbar-path {
   stroke: rgb(255, 255, 255) !important;
   stroke-width: 12px !important;
-  filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.725));
+  filter: drop-shadow(2px 4px 6px rgba(255, 255, 255, 0.495));
   
 }
 .CircularProgressbar-trail {

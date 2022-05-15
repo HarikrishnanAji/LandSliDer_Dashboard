@@ -1,7 +1,7 @@
 // Sidebar imports
 import {
   UilEstate,
-  UilClipboardAlt,
+  UilCloudShowersAlt,
   UilUsersAlt,
   UilPackage,
   UilChart,
@@ -12,7 +12,7 @@ import {
 
 
 // Analytics Cards imports
-import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
+import { UilRainbow, UilRaindrops  } from "@iconscout/react-unicons";
 
 // Sidebar Data
 export const SidebarData = [
@@ -42,7 +42,7 @@ export const cardsData = [
     },
     barValue: 30,
     value: "",
-    png: UilUsdSquare,
+    png: UilRainbow ,
     series: [
       {
         name: "Vibration",
@@ -58,7 +58,7 @@ export const cardsData = [
     },
     barValue: 20,
     value: "",
-    png: UilMoneyWithdrawal,
+    png: UilRaindrops ,
     series: [
       {
         name: "Moisture",
@@ -75,7 +75,7 @@ export const cardsData = [
     },
     barValue: 60,
     value: "",
-    png: UilClipboardAlt,
+    png: UilCloudShowersAlt,
     series: [
       {
         name: "Rainfall",
