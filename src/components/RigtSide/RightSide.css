@@ -30,7 +30,7 @@
 }
 .start{
     background-color: rgba(13, 107, 157, 0.714);
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     border-radius: 1rem;
     border-color: transparent;
