@@ -6,9 +6,11 @@ import Weathers from '../Weather/Weathers'
 const RightSide = () => {
   return (
     <div className="RightSide">
+      <button className="start">Start</button>
       <div className="Table"> <Table /></div> 
 
       <div className="Weathers"><Weathers/></div>
+
 
     </div>
 

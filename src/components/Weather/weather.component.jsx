@@ -19,7 +19,7 @@ const Weather = props => {
         {maxminTemp(props.temp_min, props.temp_max)}
 
         {/* Weather description */}
-        <h4 className="py-1 ">
+        <h4 className="py-1">
           {props.description.charAt(0).toUpperCase() +
             props.description.slice(1)}
         </h4>

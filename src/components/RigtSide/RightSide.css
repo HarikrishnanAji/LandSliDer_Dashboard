@@ -55,3 +55,18 @@
     margin-right: 10px;
    padding-top: 1px;
 }
+
+.start{
+    background-color: darkblue;
+    color: white;
+    border-color: blue;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    row-gap: 0;
+
+}
+.start:hover{
+    background-color: blue;
+    transition: 300ms;
+
+}
