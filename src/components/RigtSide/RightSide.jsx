@@ -6,14 +6,12 @@ import Weathers from '../Weather/Weathers'
 const RightSide = () => {
   return (
     <div className="RightSide">
-      <button className="start">Start</button>
+      <button className="start" onClick={console.log("Started")}>Start</button>
       <div className="Table"> <Table /></div> 
 
       <div className="Weathers"><Weathers/></div>
-
-
-    </div>
-
+      </div>
+  
     
   );
 };

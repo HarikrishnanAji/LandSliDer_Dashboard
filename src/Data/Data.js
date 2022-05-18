@@ -31,11 +31,11 @@ export const SidebarData = [
     icon: UilSetting,
     heading: 'Setting'
   },
-  {
-    icon: UilPlay,
-    heading: 'Start',
-    onclick:'http://127.0.0.1:5000/dataset'
-  },
+  // {
+  //   icon: UilPlay,
+  //   heading: 'Start',
+  //   onclick:'http://127.0.0.1:5000/dataset'
+  // },
 ];
 
 // Analytics Cards Data
@@ -90,4 +90,3 @@ export const cardsData = [
     ],
   },
 ];
-
