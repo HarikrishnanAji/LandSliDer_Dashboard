@@ -7,7 +7,8 @@ const RightSide = () => {
   
   return (
     <div className="RightSide">
-      {/* <button className="start" onClick={''}>Start</button> */}
+
+
       <div className="Table"> <Table /></div> 
 
       <div className="Weathers"><Weathers/></div>

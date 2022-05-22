@@ -29,13 +29,15 @@
     }
 }
 .start{
-    background-color: rgba(13, 107, 157, 0.714);
+    background-color: rgba(13, 107 0.714);
     color: rgb(255, 255, 255);
     cursor: pointer;
-    border-radius: 1rem;
     border-color: transparent;
     font-size: x-large;
-    
+    display:block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%    
 }
 .start:hover{
     background-color: rgba(13, 107, 157, 0.422);
