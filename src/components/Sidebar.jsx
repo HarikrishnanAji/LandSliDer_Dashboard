@@ -43,7 +43,10 @@ const Sidebar = () => {
             <div
               className={selected === index ? "menuItem active" : "menuItem"}
               key={index}
-              onClick={() => setSelected(index)}
+              onClick={() => {
+                setSelected(index)
+                item.heading === 'Start'?console.log("heading"):console.log("nope")
+              }}
             >
               <item.icon />
               <span>{item.heading}</span>
