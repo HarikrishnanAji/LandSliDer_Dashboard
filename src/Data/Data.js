@@ -9,6 +9,7 @@ import {
   UilSetting,
   UilPlay,
 } from "@iconscout/react-unicons";
+import { Chart } from "../components/Chart";
 
 
 
@@ -31,11 +32,11 @@ export const SidebarData = [
     icon: UilSetting,
     heading: 'Settings'
   },
-  {
-    icon: UilPlay,
-    heading: 'Start',
+  // {
+  //   icon: UilPlay,
+  //   heading: 'Start',
     
-  },
+  // },
 ];
 
 // Analytics Cards Data
@@ -43,19 +44,20 @@ export const SidebarData = [
 
 
 export const cardsData = [
+  
   {
     title: "Vibration",
     color: {
       backGround: "linear-gradient(180deg, #822eff 0%, #b13dff 100%)",
-      boxShadow: "0px 10px 20px 0px #e0c6f5",
+      boxShadow: "0px 10px 20px 0px #FDC0C7",
     },
-    barValue: 30,
+    barValue: 40,
     value: "",
     png: UilRainbow ,
     series: [
       {
         name: "Vibration",
-        data: [31, 40, 28, 51, 42, 109, 100],
+        data: [31, 40, 28, 21, 42, 10, 34],
       },
     ],
   },
@@ -65,24 +67,25 @@ export const cardsData = [
       backGround: "linear-gradient(180deg, #822eff 0%, #b13dff 100%)",
       boxShadow: "0px 10px 20px 0px #FDC0C7",
     },
-    barValue: 20,
+    barValue: 50,
     value: "",
     png: UilRaindrops ,
     series: [
       {
         name: "Moisture",
-        data: [10, 100, 50, 70, 80, 30, 40],
+        data: [10, 20, 20, 30, 50, 30, 40],
       },
     ],
   },
+  
   {
     title: "Rainfall",
     color: {
       backGround:
         "linear-gradient(180deg, #822eff 0%, #b13dff 100%",
-      boxShadow: "0px 10px 20px 0px #F9D59B",
+      boxShadow: "0px 10px 20px 0px #FDC0C7",
     },
-    barValue: 60,
+    barValue: 30,
     value: "",
     png: UilCloudShowersAlt,
     series: [

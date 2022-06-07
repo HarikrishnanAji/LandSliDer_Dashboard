@@ -26,7 +26,15 @@
     margin-left: 0px;
     align-items: center;
     
+    
 }
 .predict{
     padding-top: 10px;
+    font-size:x-large;
+    font-weight: bold;
+    
+}
+.heading{
+    font-size:x-large;
+    font-weight: bold;
 }
