@@ -47,8 +47,8 @@ const Cards = () => {
             <Card
               title={card.title}
               color={card.color}
-           //   barValue={data[id]}
               barValue={card.barValue}
+              // barValue={data[id]}
               value={card.value}
               png={card.png}
               series={card.series}
